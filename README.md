@@ -6,7 +6,7 @@ Cloud Foundry runner for the cloud-ide [Codenvy](https://codenvy.com/).
 But there is no runner for cloud foundry this repo let you use Cloud Foundry as a runner and show log from Cloud Foundry.
 
 ## Installation
- 1. Create a account on [Codenvy](https://codenvy.com/site/create-account)
+ 1. Create an account on [Codenvy](https://codenvy.com/site/create-account)
  2. Create or import a project in your dashboard
  3. Create a `manifest.yml` on your root directory project in codenvy (see: [http://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html](http://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html) )
  3. In your environment click on bottom on the tab `runner`. The runner tab will appear.
