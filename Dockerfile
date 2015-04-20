@@ -18,7 +18,6 @@ WORKDIR /home/user/app
 RUN cf login --skip-ssl-validation -a ${CF_API} -u ${CF_LOGIN} -p ${CF_PASSWORD} -o ${CF_ORG} -s ${CF_SPACE}
 VOLUME ["/home/user/app"]
 ENV CODENVY_APP_BIND_DIR /home/user/app
-CMD cf domains | sed -n '3p' | awk '{print $1}'
 
 EXPOSE 8080
 ENV CODENVY_APP_PORT_8080_HTTP 8080
